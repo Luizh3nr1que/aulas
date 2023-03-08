@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+}
+
+.header {
+    background: rgb(93, 155, 0);
+    padding: 80px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background: black;
+
+
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background: grey;
+    color: black;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width:700px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+}
+
+.corpo {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.card {
+    flex-grow: 1;
+    background: gainsboro;
+    height: 400px;
+    margin: 1%;
+
+
+
+}
